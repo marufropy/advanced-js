@@ -63,5 +63,8 @@ const numbers = [1, 2, 3, 4, 5];
 
 // console.log(numbers, result1, result2, result3);
 
-const bigger = numbers.filter(x => x > 3);
-console.log(bigger);
+// const bigger = numbers.filter(x => x > 3);
+// console.log(bigger);
+
+const element = numbers.find(x => x > 3);
+console.log(element);
